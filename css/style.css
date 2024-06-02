@@ -816,10 +816,14 @@ text-align: center;
     padding: 0 15px;
 }
 
+.rightgridele{
+    display: flex;
+    justify-content: space-around;
+}
+
 .rightgridele img{
-    max-width: 90%;
+    max-width: 40%;
     height: auto;
-    padding: 10px 200px;
 }
 .webchat-container {
     padding-top: 600px; /* Adjust the padding to match the height of your navbar */
@@ -872,4 +876,29 @@ padding-top: 5% ;
 #my-video {
   width: 25%; 
   height: auto; 
+}
+
+.elevid{
+    width: 100%;
+  max-width: 100vw; 
+  height: auto; 
+  text-align: center;
+  padding: 3% 0;
+  background-color: #ebedef;
+}
+
+#eleh5{
+    padding: 2% 0;
+    padding-bottom: -2%;
+    text-align: center;
+}
+
+#elep{
+    text-align: center;
+    padding: 0 10%;
+}
+
+#ele-w{
+    text-align: center;
+    padding: 3% 0 1% 0;
 }
