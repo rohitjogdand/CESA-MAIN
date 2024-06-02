@@ -902,3 +902,52 @@ padding-top: 5% ;
     text-align: center;
     padding: 3% 0 1% 0;
 }
+
+.head-fu h1{
+    color: red;
+    text-align: center;
+    padding: 2% 0 1% 0;
+}
+
+.image-collage {
+    display: flex;
+    justify-content: space-between; /* Distribute images evenly */
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 20%;
+}
+
+.image-collage img {
+    max-width: 100px; /* Maximum width of images */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+    margin-bottom: 10px; /* Add space between images */
+}
+
+.image-collage img:hover {
+    transform: translateX(-10px) scale(4); /* Move left and enlarge image on hover */
+    z-index: 1; /* Ensure hovered image is on top */
+}
+
+.main-fuel p{
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    padding-bottom: 5%;
+    width: 80%;
+    text-align: center;
+    padding-left: 20%;
+}
+
+.cover-vid{
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+}
+
+#vidfu{
+    width: 26%;
+    height: auto;
+    padding: 2% 0 2% 0;
+}
